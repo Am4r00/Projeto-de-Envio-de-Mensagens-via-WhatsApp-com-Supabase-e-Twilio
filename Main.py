@@ -23,7 +23,7 @@ for contato in contatos:
         resposta = enviar_mensagem(numero, mensagem_final)
         print(f"[DEBUG] Resposta completa do Twilio para {numero}: {resposta}")
 
-        # Verificando se a resposta é uma string (SID)
+        
         if isinstance(resposta, str):
             print(f"✅ Mensagem enviada para {nome} ({numero})")
             enviados.append(nome)
