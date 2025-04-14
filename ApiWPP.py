@@ -22,4 +22,4 @@ def enviar_mensagem(numero, mensagem):
         to=f"whatsapp:{numero}"
     )
 
-    return message.sid  # Retorna o SID da mensagem enviada
+    return message.sid  
