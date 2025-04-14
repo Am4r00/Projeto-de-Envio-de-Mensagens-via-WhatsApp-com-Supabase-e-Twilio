@@ -43,41 +43,33 @@ Antes de começar, você precisa ter:
    );
 Acesse a aba API e copie:
 
-Project URL
-
-anon key
+- 'Project URL'
+- 'anon key'
 
 📝 Passo 3: Configurar o Arquivo .env
 Crie um arquivo chamado .env na raiz do projeto e adicione:
 
-env
-Copiar
-Editar
 SUPABASE_URL=https://seu-projeto.supabase.co
 SUPABASE_KEY=sua-anon-key
+
 TWILIO_ACCOUNT_SID=seu-sid-do-twilio
 TWILIO_AUTH_TOKEN=seu-token-do-twilio
 TWILIO_PHONE_NUMBER=whatsapp:+55xxxxxxxxxx
+
 📦 Passo 4: Instalar as Dependências
 No terminal, dentro da pasta do seu projeto, execute:
 
-bash
-Copiar
-Editar
 pip install -r requirements.txt
+
 Se não tiver o requirements.txt, instale manualmente:
 
-bash
-Copiar
-Editar
 pip install requests python-dotenv supabase
+
 ▶️ Passo 5: Executar o Projeto
 No terminal, com o .env configurado, execute:
 
-bash
-Copiar
-Editar
 python main.py
+
 O sistema irá:
 
 Buscar os contatos do Supabase
