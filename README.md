@@ -79,15 +79,14 @@ Pedir a mensagem a ser enviada
 Enviar uma mensagem personalizada para cada contato
 
 📁 Estrutura Sugerida do Projeto
-bash
-Copiar
-Editar
 /projeto
 ├── .env
 ├── main.py
 ├── SupaBase_Client.py
 ├── ApiWPP.py
 └── requirements.txt
+
+
 main.py: Lê os contatos e executa os envios
 
 SupaBase_Client.py: Acesso ao Supabase
@@ -108,17 +107,17 @@ Limite diário do Twilio: Contas gratuitas podem enviar até 10 mensagens/dia no
 
 Envio responsável: Respeite a privacidade dos usuários e as políticas do WhatsApp.
 
-NUNCA suba seu .env no GitHub! Use o .gitignore.
+NUNCA suba seu .env no GitHub!
 
 👀 Exemplo de .env.example para subir com segurança
-env
-Copiar
-Editar
+
 SUPABASE_URL=coloque_aqui_a_url_do_projeto
 SUPABASE_KEY=sua_anon_key
 TWILIO_ACCOUNT_SID=seu_sid
 TWILIO_AUTH_TOKEN=seu_token
 TWILIO_PHONE_NUMBER=whatsapp:+55xxxxxxxxxx
+
 📌 Licença
 Este projeto é de uso educacional. Fique à vontade para clonar, adaptar e utilizar!
+Ass João Amaro !
 
